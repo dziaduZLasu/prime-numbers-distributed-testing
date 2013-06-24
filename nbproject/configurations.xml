@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="openmpi" displayName="openmpi" projectFiles="true">
+        <logicalFolder name="openmpi" displayName="openmpi" projectFiles="true">
+          <logicalFolder name="ompi" displayName="ompi" projectFiles="true">
+            <logicalFolder name="attribute" displayName="attribute" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/ompi/attribute/attribute.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="class" displayName="class" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/ompi/class/ompi_bitmap.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/class/ompi_free_list.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/class/ompi_rb_tree.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/class/ompi_seq_tracker.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="communicator"
+                           displayName="communicator"
+                           projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/ompi/communicator/communicator.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="datatype" displayName="datatype" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/ompi/datatype/convertor.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/datatype/convertor_internal.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/datatype/datatype.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/datatype/datatype_checksum.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/datatype/datatype_internal.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/datatype/datatype_memcpy.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/datatype/datatype_pack.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/datatype/datatype_prototypes.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/datatype/datatype_unpack.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="debuggers" displayName="debuggers" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/ompi/debuggers/debuggers.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/debuggers/msgq_interface.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/debuggers/ompi_common_dll_defs.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/debuggers/ompi_msgq_dll_defs.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="errhandler" displayName="errhandler" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/ompi/errhandler/errcode-internal.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/errhandler/errcode.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/errhandler/errhandler.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/errhandler/errhandler_predefined.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="file" displayName="file" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/ompi/file/file.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="group" displayName="group" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/ompi/group/group.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/group/group_dbg.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="info" displayName="info" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/ompi/info/info.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="mca" displayName="mca" projectFiles="true">
+              <logicalFolder name="allocator" displayName="allocator" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/allocator/base/base.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mca/allocator/allocator.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="bml" displayName="bml" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/bml/base/base.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/bml/base/bml_base_btl.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mca/bml/bml.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="btl" displayName="btl" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/btl/base/base.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/btl/base/btl_base_error.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mca/btl/btl.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="coll" displayName="coll" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/coll/base/base.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/coll/base/coll_tags.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mca/coll/coll.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="common" displayName="common" projectFiles="true">
+                <logicalFolder name="sm" displayName="sm" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/common/sm/common_sm_mmap.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="crcp" displayName="crcp" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/crcp/base/base.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mca/crcp/crcp.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="dpm" displayName="dpm" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/dpm/base/base.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mca/dpm/dpm.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="io" displayName="io" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/io/base/base.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/io/base/io_base_request.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mca/io/io.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="mpool" displayName="mpool" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/mpool/base/base.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/mpool/base/mpool_base_mem_cb.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/mpool/base/mpool_base_tree.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="fake" displayName="fake" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/mpool/fake/mpool_fake.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="rdma" displayName="rdma" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/mpool/rdma/mpool_rdma.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mca/mpool/mpool.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="mtl" displayName="mtl" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/mtl/base/base.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/mtl/base/mtl_base_datatype.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mca/mtl/mtl.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="osc" displayName="osc" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/osc/base/base.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/osc/base/osc_base_obj_convert.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mca/osc/osc.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="pml" displayName="pml" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/pml/base/base.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/pml/base/pml_base_bsend.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/pml/base/pml_base_recvreq.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/pml/base/pml_base_request.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/pml/base/pml_base_request_dbg.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/pml/base/pml_base_sendreq.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mca/pml/pml.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="pubsub" displayName="pubsub" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/pubsub/base/base.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mca/pubsub/pubsub.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="rcache" displayName="rcache" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/rcache/base/base.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mca/rcache/rcache.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="topo" displayName="topo" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/topo/base/base.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mca/topo/topo.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="vprotocol" displayName="vprotocol" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/vprotocol/base/base.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mca/vprotocol/base/vprotocol_base_request.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mca/vprotocol/vprotocol.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="mpi" displayName="mpi" projectFiles="true">
+              <logicalFolder name="c" displayName="c" projectFiles="true">
+                <logicalFolder name="profile" displayName="profile" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/c/profile/defines.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/c/bindings.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="cxx" displayName="cxx" projectFiles="true">
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/comm.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/comm_inln.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/constants.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/datatype.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/datatype_inln.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/errhandler.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/errhandler_inln.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/exception.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/file.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/file_inln.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/functions.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/functions_inln.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/group.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/group_inln.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/info.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/info_inln.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/intercomm.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/intercomm_inln.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/intracomm.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/intracomm_inln.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/mpicxx.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/op.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/op_inln.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/request.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/request_inln.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/status.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/status_inln.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/topology.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/topology_inln.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/win.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/cxx/win_inln.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="f77" displayName="f77" projectFiles="true">
+                <logicalFolder name="profile" displayName="profile" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/f77/profile/defines.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/f77/bindings.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/f77/constants.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/f77/datarep.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/f77/f77_strings.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/f77/fint_2_int.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/ompi/mpi/f77/prototypes_mpi.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="op" displayName="op" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/ompi/op/op.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/op/op_predefined.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="peruse" displayName="peruse" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/ompi/peruse/peruse-internal.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="proc" displayName="proc" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/ompi/proc/proc.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="request" displayName="request" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/ompi/request/grequest.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/request/request.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/request/request_dbg.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/request/request_default.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="runtime" displayName="runtime" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/ompi/runtime/mpiruntime.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/runtime/ompi_cr.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/runtime/ompi_module_exchange.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/ompi/runtime/params.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="win" displayName="win" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/ompi/win/win.h</itemPath>
+            </logicalFolder>
+            <itemPath>/usr/include/openmpi/openmpi/ompi/constants.h</itemPath>
+            <itemPath>/usr/include/openmpi/openmpi/ompi/memchecker.h</itemPath>
+            <itemPath>/usr/include/openmpi/openmpi/ompi/totalview.h</itemPath>
+            <itemPath>/usr/include/openmpi/openmpi/ompi/types.h</itemPath>
+            <itemPath>/usr/include/openmpi/openmpi/ompi/version.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="opal" displayName="opal" projectFiles="true">
+            <logicalFolder name="class" displayName="class" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/opal/class/opal_atomic_lifo.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/class/opal_bitmap.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/class/opal_free_list.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/class/opal_graph.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/class/opal_hash_table.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/class/opal_list.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/class/opal_object.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/class/opal_pointer_array.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/class/opal_value_array.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="dss" displayName="dss" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/opal/dss/dss.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/dss/dss_internal.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/dss/dss_types.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="event" displayName="event" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/opal/event/event.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/event/event_rename.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/event/evutil.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/event/min_heap.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="libltdl" displayName="libltdl" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/opal/libltdl/ltdl.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="mca" displayName="mca" projectFiles="true">
+              <logicalFolder name="backtrace" displayName="backtrace" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/opal/mca/backtrace/base/base.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/opal/mca/backtrace/backtrace.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="base" displayName="base" projectFiles="true">
+                <itemPath>/usr/include/openmpi/openmpi/opal/mca/base/base.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/opal/mca/base/mca_base_component_repository.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/opal/mca/base/mca_base_param.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/opal/mca/base/mca_base_param_internal.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="carto" displayName="carto" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/opal/mca/carto/base/base.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/opal/mca/carto/base/carto_base_graph.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/opal/mca/carto/carto.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="crs" displayName="crs" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/opal/mca/crs/base/base.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/opal/mca/crs/crs.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="installdirs" displayName="installdirs" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/opal/mca/installdirs/base/base.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/opal/mca/installdirs/installdirs.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="maffinity" displayName="maffinity" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/opal/mca/maffinity/base/base.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/opal/mca/maffinity/maffinity.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/opal/mca/maffinity/maffinity_types.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="memchecker" displayName="memchecker" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/opal/mca/memchecker/base/base.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/opal/mca/memchecker/memchecker.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="memcpy" displayName="memcpy" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/opal/mca/memcpy/base/base.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/opal/mca/memcpy/base/memcpy_base_default.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/opal/mca/memcpy/memcpy.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="memory" displayName="memory" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/opal/mca/memory/base/base.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/opal/mca/memory/memory.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="paffinity" displayName="paffinity" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/opal/mca/paffinity/base/base.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/opal/mca/paffinity/paffinity.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="timer" displayName="timer" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/opal/mca/timer/base/base.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/opal/mca/timer/base/timer_base_null.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/opal/mca/timer/timer.h</itemPath>
+              </logicalFolder>
+              <itemPath>/usr/include/openmpi/openmpi/opal/mca/mca.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="memoryhooks" displayName="memoryhooks" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/opal/memoryhooks/memory.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/memoryhooks/memory_internal.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="runtime" displayName="runtime" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/opal/runtime/opal.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/runtime/opal_cr.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/runtime/opal_progress.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="sys" displayName="sys" projectFiles="true">
+              <logicalFolder name="alpha" displayName="alpha" projectFiles="true">
+                <itemPath>/usr/include/openmpi/openmpi/opal/sys/alpha/atomic.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="amd64" displayName="amd64" projectFiles="true">
+                <itemPath>/usr/include/openmpi/openmpi/opal/sys/amd64/atomic.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/opal/sys/amd64/timer.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="ia32" displayName="ia32" projectFiles="true">
+                <itemPath>/usr/include/openmpi/openmpi/opal/sys/ia32/atomic.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/opal/sys/ia32/timer.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="ia64" displayName="ia64" projectFiles="true">
+                <itemPath>/usr/include/openmpi/openmpi/opal/sys/ia64/atomic.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/opal/sys/ia64/timer.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="mips" displayName="mips" projectFiles="true">
+                <itemPath>/usr/include/openmpi/openmpi/opal/sys/mips/atomic.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="powerpc" displayName="powerpc" projectFiles="true">
+                <itemPath>/usr/include/openmpi/openmpi/opal/sys/powerpc/atomic.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/opal/sys/powerpc/timer.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="sparc" displayName="sparc" projectFiles="true">
+                <itemPath>/usr/include/openmpi/openmpi/opal/sys/sparc/atomic.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="sparcv9" displayName="sparcv9" projectFiles="true">
+                <itemPath>/usr/include/openmpi/openmpi/opal/sys/sparcv9/atomic.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/opal/sys/sparcv9/timer.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="win32" displayName="win32" projectFiles="true">
+                <itemPath>/usr/include/openmpi/openmpi/opal/sys/win32/atomic.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/opal/sys/win32/timer.h</itemPath>
+              </logicalFolder>
+              <itemPath>/usr/include/openmpi/openmpi/opal/sys/architecture.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/sys/atomic.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/sys/atomic_impl.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/sys/cache.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/sys/timer.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="threads" displayName="threads" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/opal/threads/condition.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/threads/mutex.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/threads/mutex_unix.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/threads/mutex_windows.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/threads/threads.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/threads/tsd.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="util" displayName="util" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/arch.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/argv.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/basename.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/bit_ops.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/cmd_line.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/convert.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/crc.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/daemon_init.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/error.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/few.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/if.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/keyval_parse.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/malloc.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/net.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/numtostr.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/opal_environ.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/opal_getcwd.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/opal_pty.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/os_dirpath.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/os_path.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/output.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/path.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/printf.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/qsort.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/show_help.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/show_help_lex.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/stacktrace.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/strncpy.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/sys_limits.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/opal/util/trace.h</itemPath>
+            </logicalFolder>
+            <itemPath>/usr/include/openmpi/openmpi/opal/align.h</itemPath>
+            <itemPath>/usr/include/openmpi/openmpi/opal/constants.h</itemPath>
+            <itemPath>/usr/include/openmpi/openmpi/opal/hash_string.h</itemPath>
+            <itemPath>/usr/include/openmpi/openmpi/opal/opal_socket_errno.h</itemPath>
+            <itemPath>/usr/include/openmpi/openmpi/opal/prefetch.h</itemPath>
+            <itemPath>/usr/include/openmpi/openmpi/opal/types.h</itemPath>
+            <itemPath>/usr/include/openmpi/openmpi/opal/version.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="orte" displayName="orte" projectFiles="true">
+            <logicalFolder name="mca" displayName="mca" projectFiles="true">
+              <logicalFolder name="errmgr" displayName="errmgr" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/errmgr/base/base.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/errmgr/base/errmgr_private.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/errmgr/errmgr.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="ess" displayName="ess" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/ess/base/base.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/ess/ess.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="filem" displayName="filem" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/filem/base/base.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/filem/filem.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="grpcomm" displayName="grpcomm" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/grpcomm/base/base.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/grpcomm/grpcomm.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/grpcomm/grpcomm_types.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="iof" displayName="iof" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/iof/base/base.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/iof/base/iof_base_setup.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/iof/iof.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/iof/iof_types.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="notifier" displayName="notifier" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/notifier/base/base.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/notifier/notifier.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="odls" displayName="odls" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/odls/base/base.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/odls/base/odls_private.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/odls/odls.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/odls/odls_types.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="oob" displayName="oob" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/oob/base/base.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/oob/oob.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="plm" displayName="plm" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/plm/base/base.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/plm/base/plm_private.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/plm/plm.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/plm/plm_types.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="ras" displayName="ras" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/ras/base/base.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/ras/base/ras_private.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/ras/ras.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/ras/ras_types.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="rmaps" displayName="rmaps" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/rmaps/base/base.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/rmaps/base/rmaps_private.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/rmaps/rmaps.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/rmaps/rmaps_types.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="rml" displayName="rml" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/rml/base/base.h</itemPath>
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/rml/base/rml_contact.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/rml/rml.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/rml/rml_types.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="routed" displayName="routed" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/routed/base/base.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/routed/routed.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="snapc" displayName="snapc" projectFiles="true">
+                <logicalFolder name="base" displayName="base" projectFiles="true">
+                  <itemPath>/usr/include/openmpi/openmpi/orte/mca/snapc/base/base.h</itemPath>
+                </logicalFolder>
+                <itemPath>/usr/include/openmpi/openmpi/orte/mca/snapc/snapc.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="orted" displayName="orted" projectFiles="true">
+              <itemPath>/usr/include/openmpi/openmpi/orte/orted/orted.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="runtime" displayName="runtime" projectFiles="true">
+              <logicalFolder name="data_type_support"
+                             displayName="data_type_support"
+                             projectFiles="true">
+                <itemPath>/usr/include/openmpi/openmpi/orte/runtime/data_type_support/orte_dt_support.h</itemPath>
+              </logicalFolder>
+              <itemPath>/usr/include/openmpi/openmpi/orte/runtime/orte_cr.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/orte/runtime/orte_data_server.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/orte/runtime/orte_globals.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/orte/runtime/orte_locks.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/orte/runtime/orte_wait.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/orte/runtime/runtime.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/orte/runtime/runtime_internals.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="util" displayName="util" projectFiles="true">
+              <logicalFolder name="comm" displayName="comm" projectFiles="true">
+                <itemPath>/usr/include/openmpi/openmpi/orte/util/comm/comm.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="dash_host" displayName="dash_host" projectFiles="true">
+                <itemPath>/usr/include/openmpi/openmpi/orte/util/dash_host/dash_host.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="hostfile" displayName="hostfile" projectFiles="true">
+                <itemPath>/usr/include/openmpi/openmpi/orte/util/hostfile/hostfile.h</itemPath>
+                <itemPath>/usr/include/openmpi/openmpi/orte/util/hostfile/hostfile_lex.h</itemPath>
+              </logicalFolder>
+              <itemPath>/usr/include/openmpi/openmpi/orte/util/context_fns.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/orte/util/hnp_contact.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/orte/util/name_fns.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/orte/util/nidmap.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/orte/util/parse_options.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/orte/util/pre_condition_transports.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/orte/util/proc_info.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/orte/util/session_dir.h</itemPath>
+              <itemPath>/usr/include/openmpi/openmpi/orte/util/show_help.h</itemPath>
+            </logicalFolder>
+            <itemPath>/usr/include/openmpi/openmpi/orte/constants.h</itemPath>
+            <itemPath>/usr/include/openmpi/openmpi/orte/types.h</itemPath>
+            <itemPath>/usr/include/openmpi/openmpi/orte/version.h</itemPath>
+          </logicalFolder>
+          <itemPath>/usr/include/openmpi/openmpi/ompi_config.h</itemPath>
+          <itemPath>/usr/include/openmpi/openmpi/opal_config.h</itemPath>
+          <itemPath>/usr/include/openmpi/openmpi/opal_config_bottom.h</itemPath>
+          <itemPath>/usr/include/openmpi/openmpi/opal_stdint.h</itemPath>
+          <itemPath>/usr/include/openmpi/openmpi/orte_config.h</itemPath>
+        </logicalFolder>
+        <itemPath>/usr/include/openmpi/OTF_CopyHandler.h</itemPath>
+        <itemPath>/usr/include/openmpi/OTF_Definitions.h</itemPath>
+        <itemPath>/usr/include/openmpi/OTF_File.h</itemPath>
+        <itemPath>/usr/include/openmpi/OTF_FileManager.h</itemPath>
+        <itemPath>/usr/include/openmpi/OTF_Filenames.h</itemPath>
+        <itemPath>/usr/include/openmpi/OTF_HandlerArray.h</itemPath>
+        <itemPath>/usr/include/openmpi/OTF_MasterControl.h</itemPath>
+        <itemPath>/usr/include/openmpi/OTF_RBuffer.h</itemPath>
+        <itemPath>/usr/include/openmpi/OTF_RStream.h</itemPath>
+        <itemPath>/usr/include/openmpi/OTF_Reader.h</itemPath>
+        <itemPath>/usr/include/openmpi/OTF_WBuffer.h</itemPath>
+        <itemPath>/usr/include/openmpi/OTF_WStream.h</itemPath>
+        <itemPath>/usr/include/openmpi/OTF_Writer.h</itemPath>
+        <itemPath>/usr/include/openmpi/OTF_inttypes.h</itemPath>
+        <itemPath>/usr/include/openmpi/OTF_inttypes_unix.h</itemPath>
+        <itemPath>/usr/include/openmpi/mpi.h</itemPath>
+        <itemPath>/usr/include/openmpi/mpif-common.h</itemPath>
+        <itemPath>/usr/include/openmpi/mpif-config.h</itemPath>
+        <itemPath>/usr/include/openmpi/mpif-mpi-io.h</itemPath>
+        <itemPath>/usr/include/openmpi/mpif.h</itemPath>
+        <itemPath>/usr/include/openmpi/opari_omp.h</itemPath>
+        <itemPath>/usr/include/openmpi/otf.h</itemPath>
+        <itemPath>/usr/include/openmpi/pomp_lib.h</itemPath>
+        <itemPath>/usr/include/openmpi/vt_user.h</itemPath>
+        <itemPath>/usr/include/openmpi/vt_user.inc</itemPath>
+        <itemPath>/usr/include/openmpi/vt_user_comment.h</itemPath>
+        <itemPath>/usr/include/openmpi/vt_user_comment.inc</itemPath>
+        <itemPath>/usr/include/openmpi/vt_user_count.h</itemPath>
+        <itemPath>/usr/include/openmpi/vt_user_count.inc</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Communicator.cpp</itemPath>
+      <itemPath>Communicator.h</itemPath>
+      <itemPath>MillerRabin.cpp</itemPath>
+      <itemPath>MillerRabin.h</itemPath>
+      <itemPath>PWRTask.cpp</itemPath>
+      <itemPath>PWRTask.h</itemPath>
+      <itemPath>RootNode.cpp</itemPath>
+      <itemPath>RootNode.h</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <commandlineTool>mpiCC</commandlineTool>
+        </ccTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
